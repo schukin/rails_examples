@@ -1,7 +1,7 @@
 class BravoController < ApplicationController
 
 	def home
-		@value = 2
+		@value = 3
 		@string = stringify
 	end
 

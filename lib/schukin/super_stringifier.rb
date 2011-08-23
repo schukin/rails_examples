@@ -12,5 +12,4 @@ module Schukin
 	end
 
 	BravoController.send(:include, Schukin::SuperStringifier)
-
 end

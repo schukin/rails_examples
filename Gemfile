@@ -9,6 +9,8 @@ gem 'sqlite3'
 
 gem 'haml'
 
+gem 'active_reload'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
