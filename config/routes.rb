@@ -1,4 +1,8 @@
 RailsExamples::Application.routes.draw do
+  get "bravo/home"
+
+  get "alfa/home"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
