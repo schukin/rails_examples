@@ -1,11 +1,5 @@
 module Schukin
 	module SuperStringifier
-
-		def self.included(controller_class)
-			controller_class.send(:include, InstanceMethods)
-		end
-
-		module InstanceMethods
 		def stringify
 			if @value == 1
 				"One"
@@ -15,10 +9,8 @@ module Schukin
 				"Three"
 			end
 		end
-		end
 	end
 
-	puts "########## PATCH HAS BEEN LINCUDED"
 	BravoController.send(:include, Schukin::SuperStringifier)
 
 end

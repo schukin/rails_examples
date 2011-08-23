@@ -10,6 +10,4 @@ module Schukin
 			end
 		end
 	end
-
-	puts "###### Stringifier"
 end
