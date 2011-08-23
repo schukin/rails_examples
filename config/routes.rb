@@ -1,4 +1,6 @@
 RailsExamples::Application.routes.draw do
+  get "charlie/home"
+
   get "bravo/home"
 
   get "alfa/home"
